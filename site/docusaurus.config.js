@@ -1,6 +1,4 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
@@ -39,26 +37,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-
-          editUrl:
-            'https://github.com/marianaenachi23/doceria-docusaurus',
         },
 
-        blog: {
-          showReadingTime: true,
-
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-
-          editUrl:
-            'https://github.com/marianaenachi23/doceria-docusaurus',
-
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
 
         theme: {
           customCss: './src/css/custom.css',
@@ -92,8 +73,14 @@ const config = {
           },
 
           {
-            to: '/blog',
-            label: 'Atualizações',
+            to: '/docs/funcionalidades',
+            label: 'Funcionalidades',
+            position: 'left',
+          },
+
+          {
+            to: '/docs/manual-utilizador',
+            label: 'Manual',
             position: 'left',
           },
 
@@ -117,6 +104,16 @@ const config = {
                 label: 'Introdução',
                 to: '/docs/intro',
               },
+
+              {
+                label: 'Funcionalidades',
+                to: '/docs/funcionalidades',
+              },
+
+              {
+                label: 'Arquitetura',
+                to: '/docs/arquitetura',
+              },
             ],
           },
 
@@ -138,6 +135,11 @@ const config = {
               {
                 label: 'Docusaurus',
                 href: 'https://docusaurus.io/',
+              },
+
+              {
+                label: 'Markdown',
+                href: 'https://www.markdownguide.org/',
               },
             ],
           },
