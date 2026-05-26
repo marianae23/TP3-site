@@ -7,19 +7,39 @@ import styles from './index.module.css';
 
 const funcionalidades = [
   {
+    icon: '🍰',
+
     titulo: 'Gestão de Produtos',
+
     descricao:
-      'Organização dos doces disponíveis, com informação sobre preços, categorias e stock.',
+      'Organização dos doces disponíveis, incluindo preços, categorias e stock.',
   },
+
   {
+    icon: '🧾',
+
     titulo: 'Gestão de Encomendas',
+
     descricao:
-      'Registo e acompanhamento de encomendas feitas pelos clientes da doceria.',
+      'Registo e acompanhamento de encomendas realizadas pelos clientes.',
   },
+
   {
-    titulo: 'Área de Administração',
+    icon: '🎀',
+
+    titulo: 'Promoções e Avaliações',
+
     descricao:
-      'Ferramentas para gerir produtos, atualizar estados das encomendas e controlar o funcionamento do sistema.',
+      'Sistema de promoções e avaliações para melhorar a experiência dos clientes.',
+  },
+
+  {
+    icon: '📦',
+
+    titulo: 'Controlo de Stock',
+
+    descricao:
+      'Gestão das quantidades disponíveis e organização da lista de compras.',
   },
 ];
 
@@ -41,7 +61,9 @@ function HomepageHeader() {
         </p>
 
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
             Ver documentação
           </Link>
         </div>
@@ -50,10 +72,17 @@ function HomepageHeader() {
   );
 }
 
-function FeatureCard({titulo, descricao}) {
+function FeatureCard({icon, titulo, descricao}) {
   return (
     <article className={styles.featureCard}>
-      <Heading as="h3">{titulo}</Heading>
+      <div className={styles.featureIcon}>
+        {icon}
+      </div>
+
+      <Heading as="h3">
+        {titulo}
+      </Heading>
+
       <p>{descricao}</p>
     </article>
   );
@@ -64,6 +93,7 @@ export default function Home() {
     <Layout
       title="SweetFlow | Gestão de Doceria"
       description="Site de apresentação e documentação da aplicação de gestão de uma doceria.">
+
       <HomepageHeader />
 
       <main>
@@ -91,6 +121,7 @@ export default function Home() {
               {funcionalidades.map((funcionalidade) => (
                 <FeatureCard
                   key={funcionalidade.titulo}
+                  icon={funcionalidade.icon}
                   titulo={funcionalidade.titulo}
                   descricao={funcionalidade.descricao}
                 />
