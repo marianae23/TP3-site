@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 sidebar_position: 4
 ---
@@ -135,3 +136,25 @@ A área administrativa foi desenvolvida com foco em:
 # Considerações Finais
 
 O SweetFlow procura oferecer ferramentas simples e organizadas para auxiliar na administração e funcionamento da doceria.
+=======
+# Manual do Admin
+
+## Introdução
+Este manual descreve as funcionalidades disponíveis para administradores.
+
+## Gestão de Produtos
+O administrador pode adicionar, editar e remover produtos.
+
+## Gestão de Promoções
+É possível criar e atualizar promoções disponíveis no website.
+
+![Promoções](/img/promocoes.png)
+
+## Gestão de Encomendas
+O administrador pode acompanhar e gerir encomendas realizadas pelos utilizadores.
+
+![Administração](/img/admin.png)
+
+## Organização da Plataforma
+A plataforma encontra-se organizada para facilitar a gestão do conteúdo e navegação.
+>>>>>>> c999d898fe1dd76dcac54f255485d77207d5f118

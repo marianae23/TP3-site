@@ -4,23 +4,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SweetFlow',
-
-  tagline: 'Sistema de gestão para docerias modernas',
-
-  favicon: 'img/favicon.ico',
+  title: 'Sweet Dreams Doceria',
+  tagline: 'Realizamos seus sonhos mais doces!',
+  favicon: 'img/logo.jpeg',
 
   future: {
     v4: true,
   },
 
-  url: 'https://github.com',
-
-  baseUrl: '/',
-
-  organizationName: 'marianaenachi23',
-
-  projectName: 'doceria-docusaurus',
+  // Set the production url of your site here
+  url: 'https://marianae23.github.io',
+baseUrl: '/TP3-site/',
+organizationName: 'marianae23',
+projectName: 'TP3-site',
 
   onBrokenLinks: 'throw',
 
