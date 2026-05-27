@@ -9,7 +9,7 @@ const config = {
 
   tagline: 'Sistema de gestão para docerias modernas',
 
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   future: {
     v4: true,
