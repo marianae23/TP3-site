@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 sidebar_position: 4
 ---
@@ -80,15 +81,11 @@ As encomendas podem possuir diferentes estados.
 | Finalizada | Pedido concluído |
 | Entregue | Produto entregue ao cliente |
 
-![Administração](/img/admin.png)
-
 ---
 
 # Gestão de Promoções
 
 O sistema inclui ferramentas para gestão de promoções.
-
-![Promoções](/img/promocoes.png)
 
 ## Funcionalidades disponíveis
 
@@ -139,5 +136,3 @@ A área administrativa foi desenvolvida com foco em:
 # Considerações Finais
 
 O SweetFlow procura oferecer ferramentas simples e organizadas para auxiliar na administração e funcionamento da doceria.
-
-
