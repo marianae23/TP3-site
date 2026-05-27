@@ -1,30 +1,52 @@
 # Manual do Utilizador
 
 ## Introdução
-Este manual explica como utilizar as funcionalidades principais da plataforma.
 
-## Navegação
-O utilizador pode navegar entre:
-- homepage
-- catálogo
-- promoções
-- encomendas
+O SweetFlow foi desenvolvido para permitir que os clientes da doceria possam consultar produtos, realizar encomendas e acompanhar pedidos de forma simples e intuitiva.
 
-![Homepage](/img/homepage.png)
+Este manual apresenta as principais funcionalidades disponíveis para os utilizadores do sistema.
 
-## Catálogo de Produtos
-Na secção de catálogo é possível visualizar os produtos disponíveis.
+---
 
-![Catálogo](/img/catalogo.png)
+# Página Inicial
 
+Ao entrar no sistema, o utilizador pode visualizar:
 
-## Utilização de Filtros
-Os filtros permitem encontrar produtos específicos de forma mais rápida.
+- Produtos disponíveis
+- Informações da doceria
+- Categorias de produtos
+- Funcionalidades principais
 
-![Filtros](/img/filtros.png)
+A interface foi desenvolvida para ser organizada e fácil de utilizar.
 
+---
 
-## Realização de Encomendas
-O utilizador pode efetuar encomendas através da plataforma.
+# Consulta de Produtos
 
-![Encomendas](/img/encomendas.png)
+Os produtos podem ser consultados diretamente no catálogo da doceria.
+
+## Informações disponíveis
+
+Cada produto apresenta:
+
+| Informação | Descrição |
+|---|---|
+| Nome | Nome do produto |
+| Categoria | Tipo de produto |
+| Preço | Valor do produto |
+| Sabor | Sabor do doce |
+| Tamanho | Tamanho disponível |
+| Avaliações | Opiniões de clientes |
+
+---
+
+# Pesquisa de Produtos
+
+O sistema permite procurar produtos pelo nome.
+
+## Exemplo
+
+O utilizador pode pesquisar:
+
+```txt
+bolo de chocolate

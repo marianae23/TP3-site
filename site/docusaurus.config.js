@@ -4,19 +4,24 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Sweet Dreams Doceria',
-  tagline: 'Realizamos seus sonhos mais doces!',
-  favicon: 'img/logo.jpeg',
+<<<<<<< HEAD
+  title: 'SweetFlow',
+
+  tagline: 'Sistema de gestão para docerias modernas',
+
+  favicon: 'img/logo.svg',
 
   future: {
     v4: true,
   },
 
-  // Set the production url of your site here
-  url: 'https://marianae23.github.io',
-baseUrl: '/TP3-site/',
-organizationName: 'marianae23',
-projectName: 'TP3-site',
+  url: 'https://github.com',
+
+  baseUrl: '/',
+
+  organizationName: 'marianaenachi23',
+
+  projectName: 'doceria-docusaurus',
 
   onBrokenLinks: 'throw',
 
@@ -57,8 +62,13 @@ projectName: 'TP3-site',
         title: 'SweetFlow',
 
         logo: {
+<<<<<<< HEAD
           alt: 'SweetFlow Logo',
           src: 'img/logo.svg',
+=======
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
+>>>>>>> feature/sidebar
         },
 
         items: [
@@ -66,8 +76,13 @@ projectName: 'TP3-site',
             to: '/docs/intro',
             label: 'Documentação',
             position: 'left',
+<<<<<<< HEAD
           },
 
+=======
+            label: 'Documentação',
+          },
+>>>>>>> feature/sidebar
           {
             to: '/docs/funcionalidades',
             label: 'Funcionalidades',
@@ -97,7 +112,11 @@ projectName: 'TP3-site',
 
             items: [
               {
+<<<<<<< HEAD
                 label: 'Introdução',
+=======
+                label: 'Documentação',
+>>>>>>> feature/sidebar
                 to: '/docs/intro',
               },
 
